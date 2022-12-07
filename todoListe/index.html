@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <title>Liste de tache</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2>MA LISTE DE CHOSES A FAIRE</h2>
+      <input type="text" id="myInput" placeholder="Quoi faire..." />
+      <span onclick="newElement()" class="addBtn">Ajouter</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Respirer</li>
+      <li class="checked">Dormir</li>
+      <li>Manger</li>
+      <li>Danser</li>
+      <li>Travailler</li>
+      <li>Attendre</li>
+      <li>Ecole</li>
+      <li>Sport</li>
+    </ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
